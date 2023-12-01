@@ -1,0 +1,682 @@
+player_id,team_id,player_name,tm_id
+3168,46,João Filipe Iria Santos Moutinho,29364
+5219,46,Romain Saïss,204198
+5568,46,Raúl Alonso Jiménez Rodríguez,206040
+6331,46,Leander Dendoncker,168157
+9925,46,Matt Doherty,171679
+9928,46,Conor Coady,128901
+9929,46,Diogo José Teixeira da Silva,340950
+9930,46,Ryan Bennett,67252
+9932,46,Rúben Gonçalo Silva Nascimento Vinagre,357158
+9933,46,Willy Boly,142310
+9934,46,Morgan Gibbs-White,429014
+11333,46,Adama Traoré Diarra,204103
+18243,46,Ivan Ricardo Neves Abreu Cavaleiro,149716
+23635,46,John Ruddy,29712
+3442,58,El-Hadji Baye Oumar Niasse,209781
+5515,58,Aron Einar Gunnarsson,63821
+6659,58,Víctor Camarasa Ferrando,263856
+9911,58,Joe Bennett,90964
+9912,58,Souleymane Bamba,28984
+9913,58,Lee Peltier,38094
+9915,58,Bruno Écuélé Manga,60990
+9917,58,Joe Ralls,195680
+9920,58,Neil Leonard Dula Etheridge,61694
+9923,58,Bobby Reid,186186
+9924,58,Sean Morrison,79723
+11288,58,Kenneth Dahrup Zohorè,135213
+11290,58,Callum Paterson,169555
+12649,58,Rhys Healey,238185
+3049,37,Matt Ritchie,92469
+3065,37,Paul Dummett,170321
+3075,37,Javier Manquillo Gaitán,162029
+3076,37,Ayoze Pérez Gutiérrez,246968
+3079,37,Isaac Hayden,206225
+3081,37,Jamal Lascelles,183318
+3084,37,Christian Atsu Twasam,186997
+3274,37,Mohamed Diamé,70950
+3290,37,Federico Fernández,85475
+3605,37,Sung-Yeung Ki,81796
+3711,37,Martin Dúbravka,74960
+4041,37,José Salomón Rondón Giménez,80197
+5537,37,Fabian Lukas Schär,135343
+12603,37,Miguel Ángel Almirón Rejala,272999
+3272,25,Oriol Romeu Vidal,66100
+3286,25,Nathan Redmond,129078
+3300,25,Maya Yoshida,81789
+3328,25,James Ward-Prowse,181579
+3570,25,Pierre-Emile Højbjerg,167799
+3654,25,Daniel William John Ings,134294
+3842,25,Shane Long,37304
+3950,25,Jack Stephens,163744
+3951,25,Mario Lemina,170934
+4278,25,Joshua Sims,286919
+4626,25,Jan Bednarek,243028
+10285,25,Stuart Armstrong,130765
+20045,25,Ryan Bertrand,40611
+22379,25,Angus Gunn,201574
+3263,23,Craig Cathcart,59606
+3266,23,Christian Kabasele,81512
+3292,23,Abdoulaye Doucouré,127187
+3453,23,Andre Gray,120565
+3454,23,Troy Deeney,65477
+3579,23,Roberto Maximiliano Pereyra,112302
+3650,23,Daryl Janmaat,60744
+3721,23,Etienne Capoue,63494
+3725,23,José Holebas,41112
+4053,23,Ben Foster,13572
+4588,23,Will Hughes,207014
+6918,23,Isaac Ajayi Success,295331
+10312,23,Ken Sema,252345
+3297,31,Andros Townsend,61842
+3321,31,Patrick van Aanholt,52119
+3380,31,Christian Benteke Liolo,50201
+3443,31,Joel Ward,92572
+3448,31,Martin Kelly,78959
+3455,31,Luka Milivojević,74300
+3464,31,James McArthur,41416
+3483,31,Mamadou Sakho,47713
+3488,31,Wayne Hennessey,45494
+3507,31,Wilfried Zaha,145988
+3520,31,Jeffrey Schlupp,157506
+3687,31,Alexander Sørloth,238407
+8508,31,Max Meyer,146164
+3041,37,Ciaran Clark,98240
+3265,37,José Luis Sanmartín Mato,81999
+3273,37,Jacob Murphy,199527
+3658,37,DeAndre Yedlin,255916
+6337,37,Yoshinori Muto,230541
+3167,33,Antonio Rüdiger,86202
+3472,33,Willian Borges da Silva,52769
+3477,33,Álvaro Borja Morata Martín,128223
+3604,33,Olivier Giroud,82442
+3621,33,Eden Hazard,50202
+3956,33,David Luiz Moreira Marinho,46741
+3957,33,César Azpilicueta Tanco,57500
+3958,33,Pedro Eliezer Rodríguez Ledesma,65278
+3961,33,N'Golo Kanté,225083
+3964,33,Marcos Alonso Mendoza,112515
+4275,33,Ross Barkley,131978
+5456,33,Mateo Kovačić,51471
+6395,33,Kepa Arrizabalaga Revuelta,192279
+7024,33,Jorge Luiz Frello Filho,102017
+3053,36,Leroy Sané,192565
+3054,36,Fernando Luiz Rosa,26267
+3063,36,Danilo Luiz da Silva,145707
+3064,36,David Josué Jiménez Silva,35518
+3067,36,Ederson Santana de Moraes,238223
+3090,36,Nicolás Hernán Otamendi,54781
+3193,36,Bernardo Mota Veiga de Carvalho e Silva,241641
+3202,36,Gabriel Fernando de Jesus,363205
+3233,36,Raheem Shaquille Sterling,134425
+3575,36,Oleksandr Zinchenko,203853
+3814,36,Riyad Mahrez,171424
+4353,36,Aymeric Laporte,176553
+4597,36,Fabian Delph,50362
+10287,36,İlkay Gündoğan,53622
+3306,28,Nathan Aké,177476
+3315,28,Lys Mousset,291422
+3323,28,Tyrone Mings,253677
+3339,28,Asmir Begović,33873
+3341,28,Steve Cook,90836
+3344,28,Andrew Surman,29975
+3345,28,Charlie Daniels,61819
+3346,28,Joshua King,91059
+3463,28,Junior Stanislas,87672
+3581,28,Ryan Fraser,146795
+3608,28,Simon Francis,13573
+3615,28,Lewis Cook,249089
+3616,28,Callum Wilson,123682
+4567,28,David Brooks,277033
+3089,36,Kevin De Bruyne,88755
+3205,36,Kyle Walker,95424
+3237,36,Sergio Leonel Agüero del Castillo,26399
+3244,36,John Stones,186590
+3504,33,Ruben Loftus-Cheek,202886
+4355,33,Emerson Palmieri dos Santos,181778
+5497,33,Gonzalo Gerardo Higuaín,39153
+3141,55,André-Frank Zambo Anguissa,354361
+3229,55,Maxime Le Marchand,60558
+3359,55,Jean Michaël Seri,178614
+3713,55,Calum Chambers,215118
+4269,55,Aleksandar Mitrović,51152
+6823,55,Sergio Rico González,207302
+9604,55,Joe Bryan,194460
+10278,55,Cyrus Christie,158623
+10279,55,Kevin McDonald,36529
+10281,55,André Schürrle,58205
+10282,55,Kouassi Ryan Sessegnon,392775
+10284,55,Tom Cairney,123275
+16441,55,Ryan Guno Babel,16135
+18242,55,Tim Ream,145466
+3269,23,Francisco Femenía Far,76467
+3726,23,Gerard Deulofeu Lázaro,129476
+3731,23,Adrian Mariappa,38145
+22140,23,Domingos Quina,391719
+3056,35,Anthony Knockaert,149237
+3074,35,Solomon March,209212
+3085,35,Glenn Murray,45693
+3088,35,Lewis Dunk,148153
+3095,35,Bruno Saltor Grau,51528
+3097,35,Pascal Groß,82873
+3225,35,Shane Duffy,119269
+3239,35,Davy Pröpper,79027
+3240,35,Mathew Ryan,128969
+3242,35,Dale Stephens,49755
+3719,35,Gaëtan Bong Songo,36291
+4385,35,Yves Bissouma,410425
+5239,35,Alireza Jahanbakhsh,213268
+8960,35,Bernardo Fernandes da Silva Junior,364258
+3037,38,Moussa Sidi Yaya Dembélé,19368
+3043,38,Christian Dannemann Eriksen,69633
+3077,38,Jan Vertonghen,43250
+3082,38,Harry Winks,249126
+3086,38,Ben Davies,192765
+3094,38,Bamidele Alli,207929
+3308,38,Kieran Trippier,95810
+3486,38,Fernando Llorente Torres,35564
+3494,38,Davinson Sánchez Mina,341429
+3594,38,Danny Rose,50174
+3609,38,Michel Vorm,26276
+3745,38,Lucas Rodrigues Moura da Silva,77100
+10955,38,Harry Kane,132098
+20005,38,Toby Alderweireld,42710
+3287,23,Nathaniel Chalobah,128900
+3459,55,Alfie Mawson,287431
+6744,55,Luciano Vietto,214316
+10283,55,Stefan Marius Johansen,62008
+12258,55,Marcus Bettinelli,116648
+12259,55,Denis Odoi,59641
+15689,55,Floyd Ayité,77974
+3066,38,Kyle Walker-Peters,341051
+3083,38,Heung-Min Son,91845
+3091,38,Moussa Sissoko,46001
+3099,38,Hugo Lloris,17965
+21081,38,Juan Marcos Foyth,480763
+22145,38,Oliver Skipp,406638
+5678,28,Jefferson Andrés Lerma Solís,262980
+6895,28,Diego Rico Salguero,249513
+3585,38,Erik Lamela,111630
+10956,38,Eric Dier,175722
+3093,37,Florian Lejeune,127108
+3666,37,Robert Kenedy Nunes do Nascimento,281404
+4031,37,Sean Longstaff,346707
+8288,37,Antonio Barreca,241889
+4354,36,Philip Foden,406635
+3279,35,José Heriberto Izquierdo Mena,147094
+3573,35,Beram Kayal,44741
+4624,35,Jürgen Locadia,166240
+6593,35,Martín Montoya Torralbo,68645
+3057,37,Jonjo Shelvey,71292
+3307,22,Marc Albrighton,61560
+3336,22,Harry Maguire,177907
+3338,22,Onyinye Wilfred Ndidi,274839
+3458,22,Ben Chilwell,316125
+3497,22,Vicente Iborra De La Fuente,65467
+3708,22,Kelechi Promise Iheanacho,295330
+3709,22,Daniel Amartey,214056
+3813,22,Wes Morgan,10003
+3815,22,Kasper Schmeichel,16911
+4506,22,Nampalys Mendy,111051
+6352,22,Ricardo Domingos Barbosa Pereira,215876
+9905,22,James Maddison,294057
+10960,22,Jamie Vardy,197838
+2965,32,Christopher Schindler,57842
+2968,32,Elias Kachunga,49501
+2977,32,Chris Löwe,55125
+3027,32,Mathias Jattah-Njie Jørgensen,52059
+3257,32,Steve Mounié,238639
+3281,32,Aaron Mooy,123951
+3322,32,Jonas Lössl,48870
+3331,32,Philip Billing,320411
+3656,32,Alex Pritchard,200777
+4006,32,Karlan Grant,314183
+8358,32,Juninho Bacuna,348863
+11416,32,Jon Gorenc Stankovič,245034
+13206,32,Erik Durm,93922
+24065,32,Aaron Rowe,657994
+3614,28,Dominic Solanke,258889
+4590,28,Nathaniel Edwin Clyne,85177
+4767,28,Chris Mepham,480987
+6409,28,Adam Smith,61841
+20074,28,Artur Boruc,15220
+3052,40,Pablo Javier Zabaleta Girod,20007
+3058,40,Javier Hernández Balcázar,50935
+3062,40,Aaron Cresswell,92571
+3262,40,Łukasz Fabiański,29692
+3325,40,Marko Arnautović,41384
+3349,40,Michail Antonio,104124
+3595,40,Manuel Lanzini,135853
+3843,40,Angelo Obinze Ogbonna,48002
+3897,40,Pedro Mba Obiang Avomo,101213
+3943,40,Declan Rice,357662
+4349,40,Issa Diop,272622
+6732,40,Lucas Pérez Martínez,73185
+10289,40,Robert Snodgrass,22614
+18244,40,Grady Diangana,342048
+3280,29,Richarlison de Andrade,378710
+3436,29,Idrissa Gana Gueye,126665
+3438,29,Michael Keane,118534
+3456,29,Kurt Happy Zouma,157509
+3468,29,Jordan Pickford,130164
+3470,29,Dominic Calvert-Lewin,306024
+3648,29,Cenk Tosun,45671
+3652,29,Tom Davies,314210
+3668,29,Theo Walcott,33713
+3944,29,Gylfi Þór Sigurðsson,90466
+4589,29,Séamus Coleman,68390
+6849,29,Lucas Digne,126664
+10802,29,André Filipe Tavares Gomes,221025
+15784,29,Bernard Anício Caldeira Duarte,175169
+2954,22,Youri Tielemans,249565
+3312,22,Demarai Gray,292417
+3372,22,Rachid Ghezzal,118287
+4718,22,Harvey Lewis Barnes,398065
+11012,22,Jonny Evans,42412
+3343,28,Dan Gosling,44983
+3966,25,Charlie Austin,129627
+8815,25,Jannik Vestergaard,99331
+22117,25,Yan Valery,406008
+3810,22,Shinji Okazaki,79642
+4274,33,Callum Hudson-Odoi,392768
+3600,29,Morgan Schneiderlin,56818
+6196,29,Yerry Fernando Mina González,289446
+8395,55,Håvard Nordtveit,42234
+3959,33,Andreas Christensen,196948
+3874,40,Mark Noble,31835
+8172,40,Felipe Anderson Pereira Gomes,159372
+10291,40,Ryan Fredericks,140191
+20253,40,Samir Nasri,18935
+3304,58,Harry Arter,55742
+9533,58,Leandro Bacuna,126014
+9922,58,David Junior Hoilett,58993
+11289,58,Josh Murphy,199528
+3276,32,Daniel Williams,38383
+3298,32,Tom Smith,121398
+3452,32,Terence Kongolo,152651
+3642,32,Jonathan Hogg,61573
+4621,32,Ben Hamer,67283
+3316,31,James Tomkins,61592
+3407,31,Scott Dann,62688
+3457,31,Michy Batshuayi Tunga,179184
+3684,31,Cheikhou Kouyaté,66934
+3690,31,Aaron Wan-Bissaka,477758
+6625,31,Vicente Guaita Panadero,64399
+3275,1,Henrikh Mkhitaryan,55735
+3451,1,Alexandre Lacazette,93720
+3496,1,Mesut Özil,35664
+3498,1,Ignacio Monreal Eraso,43003
+3510,1,Sead Kolašinac,94005
+3517,1,Aaron Ramsey,50057
+3568,1,Mohamed Naser Elsayed Elneny,160438
+3599,1,Ainsley Maitland-Niles,285845
+3638,1,Shkodran Mustafi,88590
+3647,1,Alex Iwobi,242631
+3712,1,Pierre-Emerick Aubameyang,58864
+7345,1,Mattéo Guendouzi Olié,465830
+8244,1,Sokratis Papastathopoulos,34322
+15581,1,Bernd Leno,72476
+3388,40,Jack Wilshere,74223
+3587,40,Arthur Masuaku,181380
+5685,40,Carlos Alberto Sánchez Moreno,51226
+10290,40,Fabián Cornelio Balbuena González,285548
+7169,23,Adam Masina,286949
+3376,32,Isaac Mbenza,260806
+9692,32,Joel Coleman,285551
+24874,32,Matty Daly,566349
+3651,25,Matt Targett,250478
+3447,29,Ademola Lookman,406040
+20046,29,Phil Jagielka,13520
+3462,34,Jack Cork,40613
+3505,34,Chris Wood,108725
+3583,34,Ashley Westwood,91317
+3627,34,Charlie Taylor,195633
+3628,34,James Tarkowski,173504
+3661,34,Ashley Barnes,63200
+3663,34,Ben Mee,74810
+3720,34,Johann Berg Guðmunds­son,89231
+4620,34,Matthew Lowton,102258
+4693,34,Tom Heaton,34130
+4809,34,Matěj Vydra,101500
+5111,34,Dwight McNeil,584769
+10965,34,Jeff Hendrick,148262
+10967,34,Robbie Brady,128229
+3683,23,Tom Cleverley,73484
+3645,33,Gary Cahill,27511
+6731,35,Florin Andone,177065
+3500,1,Granit Xhaka,111455
+5266,1,Lucas Torreira Di Pascua,318077
+5541,1,Stephan Lichtsteiner,2865
+24938,55,Harvey Elliot,565822
+5205,46,Rui Pedro dos Santos Patrício,45026
+6802,46,Jonathan Castro Otto,175446
+9927,46,Rúben Diogo Da Silva Neves,225161
+24939,46,Will Norris,285033
+24940,46,Max Kilman,525247
+3450,31,Jordan Ayew,108354
+3469,31,Bakary Sako,46791
+9921,58,Nathaniel Mendez-Laing,125409
+15691,58,Danny Ward,124172
+3970,25,Fraser Forster,52570
+10286,25,Mohamed Elyounoussi,186644
+4619,22,Hamza Choudhury,341501
+3101,36,Vincent Kompany,9594
+3261,36,Benjamin Mendy,157495
+3471,24,Dejan Lovren,37838
+3473,24,James Philip Milner,3333
+3495,24,Joe Gomez,256178
+3529,24,Daniel Andre Sturridge,47082
+3531,24,Mohamed Salah,148455
+3532,24,Jordan Brian Henderson,61651
+3535,24,Roberto Firmino Barbosa de Oliveira,131789
+3567,24,Georginio Wijnaldum,49499
+3629,24,Sadio Mané,200512
+3655,24,Andrew Robertson,234803
+3669,24,Virgil van Dijk,139208
+5547,24,Alisson Ramsés Becker,105470
+8505,24,Naby Deco Keïta,302215
+23528,55,Lazar Marković,144303
+3465,55,Timothy Evans Fosu-Mensah,315131
+3524,32,Laurent Depoitre,90583
+3618,32,Florent Hadergjonaj,238809
+3329,25,Cédric Ricardo Alves Soares,112988
+3588,25,Wesley Hoedt,253765
+3619,25,Alex McCarthy,95976
+3828,25,Steven Davis,28973
+3949,25,Manolo Gabbiadini,112343
+3247,24,Fábio Henrique Tavares,225693
+3502,24,Joël Andre Job Matip,82105
+3533,24,Xherdan Shaqiri,86792
+4090,24,Adam David Lallana,43530
+10280,55,Aboubakar Kamara,290951
+22171,55,Ibrahima Cissé,160380
+3289,39,Romelu Lukaku Menama,96341
+3293,39,Jesse Lingard,141660
+3294,39,Juan Manuel Mata García,44068
+3314,39,Phil Jones,117996
+3318,39,Marcus Rashford,258923
+3333,39,David de Gea Quintana,59377
+3381,39,Nemanja Matić,74683
+3602,39,Faustino Marcos Alberto Rojo,93176
+3606,39,Ander Herrera Agüera,99343
+3612,39,Ashley Young,14086
+3620,39,Scott McTominay,315969
+9904,39,Frederico Rodrigues Santos,191614
+10958,39,Chris Smalling,103427
+16028,39,José Diogo Dalot Teixeira,357147
+3478,33,Francesc Fàbregas i Soler,8806
+19688,32,Jason Puncheon,47995
+8963,22,Caglar Söyüncü,320141
+22821,28,Jack Simpson,419930
+9931,46,Hélder Wander Sousa Azevedo Costa,173900
+3270,22,Danny Simpson,37442
+9916,58,Gary Madine,66994
+9926,46,Leonardo Bonatini Lohner Maia,181781
+3296,39,Marouane Fellaini-Bakkioui,39679
+3385,39,Alexis Alejandro Sánchez Sánchez,40433
+3702,39,Victor Nilsson Lindelöf,184573
+4587,39,Matteo Darmian,54906
+20004,39,Paul Pogba,122153
+20039,39,Anthony Martial,182877
+22589,25,Callum Slattery,332342
+3643,34,Phil Bardsley,15773
+3291,34,Joe Hart,40204
+3953,34,Aaron Lennon,14221
+4092,34,Sam Vokes,48078
+3515,24,Alberto Moreno Pérez,207917
+3664,24,Trent Alexander-Arnold,314353
+4747,24,Divock Okoth Origi,148368
+4271,40,Andy Carroll,48066
+3635,28,Jordon Ibe,195652
+22122,55,Neeskens Kebano,111422
+3536,32,Ramadan Sobhi,312017
+2978,32,Collin Quaner,123397
+3624,25,Michael Obafemi,444208
+3511,1,Héctor Bellerín Moruno,191217
+3394,1,Laurent Koscielny,76277
+22360,40,Alexandre Nascimento Costa Silva,258011
+15965,34,Ben Gibson,128904
+3324,39,Eric Bertrand Bailly,286384
+3382,39,Luke Shaw,183288
+6846,39,Andreas Hoelgebaum Pereira,203394
+16880,58,Greg Cunningham,114093
+22358,35,David Button,61814
+3542,29,Jonjoe Kenny,258883
+3373,32,Adama Diakhaby,453594
+3518,29,Leighton Baines,13507
+20641,31,Connor Wickham,95435
+3686,23,Stefano Okaka Chuka,35249
+3267,39,Luis Antonio Valencia Mosquera,33544
+4591,1,Rob Holding,253341
+3288,23,Miguel Ángel Britos Cabrera,76799
+5467,35,Leon-Aderemi Balogun,56100
+3584,34,Stephen Ward,34691
+3098,38,Victor Wanyama,77760
+3264,38,Vincent Janssen,207015
+5112,28,Emerson Hyndman,223047
+3737,1,Edward Nketiah,340324
+3481,38,Serge Aurier,127032
+3305,32,Rajiv van La Parra,77001
+23860,39,Mason Greenwood,532826
+15690,58,Jazz Richards,120241
+8830,40,Andriy Yarmolenko,69015
+3640,29,Mason Holgate,348623
+3337,28,Jermain Defoe,3875
+3963,33,Victor Moses,59866
+6756,23,Marc Navarro Ceciliano,335245
+3461,1,Petr Čech,5658
+3569,1,Daniel Nii Tackie Mensah Welbeck,67063
+9919,58,Kadeem Harris,136501
+3659,33,Wilfredo Daniel Caballero,19948
+22588,25,Sam Gallagher,227183
+23636,39,Tahith Chong,344830
+4040,34,Peter Crouch,4072
+24965,31,Luke Dreher,432293
+9782,28,Sam Surridge,398402
+24937,28,Mark Travers,357658
+3525,24,Alex Oxlade-Chamberlain,143424
+22343,39,Angel Gomes,392770
+3653,34,Steven Defour,33866
+3660,33,Davide Zappacosta,173859
+4625,1,Joseph Willock,340329
+4781,1,Konstantinos Mavropanos,415912
+3607,29,James McCarthy,45333
+20605,58,Loïc Damour,81190
+3657,34,Kevin Long,111114
+6609,1,Denis Suárez Fernández,165007
+21254,1,Carl Jenkinson,126321
+3639,38,Georges-Kevin N'Koudou Mbida,215679
+23625,39,James Garner,505219
+23590,32,Demeaco Duhaney,380913
+23626,40,Benjamin Johnson,468002
+3634,32,Abdelhamid Sabiri,340394
+3710,22,Fousseni Diabaté,364861
+22280,25,Tyreke Johnson,404586
+22359,25,Kayne Ramsey,530879
+22084,1,Bukayo Saka,433177
+15669,24,Rafael Euclides Soares Camacho,400831
+3487,31,Julián Speroni,12814
+20570,23,Ben Wilmot,467599
+3812,22,Christian Fuchs,6636
+5109,38,Paulo Dino Gazzaniga,195488
+3707,22,Adrien Sebastian Perruchet Silva,56810
+10313,38,Luke Amos,258912
+10277,55,Fabricio Martín Agosto Ramírez,45882
+4884,31,Pape N'Diaye Souaré,125868
+3309,23,Sebastian Prödl,37981
+2958,26,Luciano Narsingh,72462
+3310,26,Tom Carroll,121279
+3330,26,Sam Clucas,122223
+3340,26,Kyle Naughton,66219
+3440,26,Kevin Oghenetega Tamaraebi Bakumo-Abraham,331726
+3576,26,Martin Olsson,38073
+3598,26,Wilfried Guemiand Bony,81808
+3610,26,Roque Mesa Quevedo,202984
+3631,26,Nathan Dyer,37011
+4045,26,Leroy Fer,63342
+3508,29,Sandro Ramírez Castillo,199369
+3538,29,Wayne Mark Rooney,3332
+3590,29,Rhu-endly Martina,91251
+3644,29,Ashley Williams,67355
+3042,37,Mikel Merino Zazón,338424
+3092,37,Dwight Gayle,196522
+3649,37,Karl Darlow,99397
+3671,22,José Leonardo Ulloa,54890
+3632,23,André Martín Carrillo Díaz,135057
+3742,23,Orestis Karnezis,16408
+3466,27,Matt Phillips,77274
+3479,27,Sam Field,387331
+3513,27,Oliver Burke,341317
+3514,27,James McClean,85935
+3523,27,Craig Dawson,121477
+3527,27,Jake Livermore,61832
+3528,27,Kieran Gibbs,44792
+3541,27,Chris Brunt,36814
+3637,27,Grzegorz Krychowiak,45184
+3685,27,Jay Rodriguez,53360
+4063,27,Ahmed Hegazi,111524
+3335,26,Mike van der Hoorn,187105
+3347,26,André Ayew Pelé,45403
+3665,26,Andy King,56872
+3474,34,Nick Pope,192080
+3580,34,Nahki Wells,173483
+4084,34,Scott Arfield,55291
+3386,22,Matty James,73522
+3480,30,Geoff Cameron,31642
+3499,30,Jean-Eric Maxim Choupo-Moting,45660
+3537,30,Jack Butland,128899
+3603,30,Mame Biram Diouf,62049
+3622,30,Moritz Bauer,159692
+3636,30,Charlie Adam,28990
+3995,30,Bruno Martins Indi,112052
+4277,30,Papa Alioune N'Diaye,211325
+4279,30,Konstantinos Stafylidis,148967
+4724,30,Glen Johnson,3881
+4725,30,Tyrese Campbell,382554
+10931,30,Joe Allen,51452
+3623,40,Adrián San Miguel del Castillo,71271
+3913,40,Edimilson Fernandes,247555
+3962,40,Diafra Sakho,120610
+3389,36,Eliaquim Mangala,90681
+4280,40,Winston Reid,37526
+3303,32,Thomas Ince,157368
+4885,32,Dean Whitehead,13683
+4276,1,David Ospina Ramírez,73396
+4774,26,Connor Roberts,214666
+3646,28,Marc Pugh,36939
+3441,29,Nikola Vlašić,293200
+3589,29,Yannick Bolasie Yala,75471
+3596,27,Gareth McAuley,40567
+3633,27,Gareth Barry,3291
+3040,35,Tomer Hemed,112668
+3221,35,Markus Suttner,31514
+3613,35,Matias Ezequiel Schelotto,119164
+3509,33,Thibaut Courtois,108390
+3662,33,Danny Drinkwater,73491
+3955,33,Tiemoué Bakayoko,182618
+3990,30,Jesé Rodríguez Ruiz,134936
+3332,26,Oliver McBurnie,298477
+3593,26,Renato Júnior Luz Sanches,258027
+3484,23,Marvin Zeegelaar,92899
+3522,23,Heurelho da Silva Gomes,19059
+3577,23,Molla Wagué,129893
+3626,23,Ben Watson,14081
+3625,25,Sofiane Boufal,232271
+3831,25,Dušan Tadić,36139
+3467,30,Erik Pieters,43763
+3611,30,Kevin Wimmer,122675
+4022,30,Darren Fletcher,3547
+4630,30,Saido Berahino,128897
+4891,30,Ibrahim Afellay,15760
+3482,40,James Collins,12691
+3278,28,Benik Afobe,110858
+3277,31,Yohan Cabaye,29434
+3591,31,Jaïro Riedewald,241481
+3571,1,Reiss Nelson,340325
+3044,37,Chancel Mbemba Mangulu,203348
+3096,37,Rob Elliot,39037
+5110,37,Henri Saivet,51540
+3597,30,Thomas Edwards,430788
+4122,30,Josh Tymon,419929
+4137,30,Julien Ngoy,286005
+3586,40,Sam Byram,236953
+4272,40,João Mário Naval da Costa Eduardo,149729
+4273,40,Reece Oxford,314295
+3437,1,Francis Coquelin,74869
+4270,25,Jérémy Pied,60583
+3582,29,Beni Baningime,399369
+4317,29,Kevin Mirallas,33639
+3326,31,Chung-Yong Lee,81801
+4035,30,Ryan Shawcross,45861
+3693,31,Damien Delaney,36861
+4147,31,Freddie Ladapo,233998
+3492,27,Hal Robson-Kanu,65976
+3967,27,Claudio Ariel Yacob,45330
+3991,27,Allan Romeo Nyom,111508
+4748,27,Rekeem Harper,456877
+3317,32,Kasey Palmer,258216
+3268,25,Sam McQueen,226968
+3183,35,Isaiah Brown,245805
+3672,39,Zlatan Ibrahimović,3455
+3969,22,Aleksandar Dragović,59032
+4835,22,Eldin Jakupovic,2857
+3490,27,James Morrison,27614
+3811,22,Islam Slimani,174915
+3391,37,Rolando Aarons,258188
+3311,39,Daley Blind,12282
+4910,39,Axel Tuanzebe,342046
+3670,34,Jonathan Walters,3306
+3449,26,Wayne Routledge,14066
+3973,26,Àngel Rangel Zaragoza,66550
+4631,26,Leon Britton,40043
+4632,30,Stephen Ireland,34838
+4883,30,Lasse Sørensen,357967
+3087,36,Gnégnéri Yaya Touré,13091
+3493,24,Emre Can,119296
+3501,24,Philippe Coutinho Correia,80444
+3539,24,Simon Mignolet,50219
+4174,24,Ragnar Klavan,26669
+3630,24,Loris Karius,85864
+3516,32,Scott Malone,101682
+4890,35,Sam Baldock,67211
+3302,23,Nordin Amrabat,55619
+4746,23,Younes Kaboul,27114
+3475,1,Per Mertesacker,6710
+4831,27,Nacer Chadli,59631
+3968,23,Jerome Sinclair,236513
+4726,26,Kyle Bartley,67421
+3246,25,Guido Marcelo Carrillo,184672
+4786,30,Lee Grant,13460
+3667,35,Connor Goldson,163656
+4886,24,Benjamin Woodburn,344015
+3572,32,Joe Lolley,287167
+4629,29,José Ramiro Funes Mori,11111
+4934,33,Ethan Ampadu,392771
+3960,40,José Miguel da Rocha Fonte,33829
+20008,40,Patrice Evra,5285
+4826,22,Yohan Benalouane,50477
+4318,29,Davy Klaassen,182932
+5106,32,Martin Cranie,27659
+5107,35,Uwe Hünemeier,10503
+4780,36,Lukas Nmecha,314288
+3601,33,Charly Musonda Junior,177862
+4788,37,Jesús Gámez Duarte,29055
+5108,27,Glyn Oliver Myhill,3838
+3033,35,Jamie Murphy,51730
+4751,39,Michael Carrick,3878
+4892,39,Sergio Germán Romero,30690
+4837,40,Josh Cullen,242606
+4116,31,Sullay Kaikai,244130
+4882,40,Jordan Hugill,291544
+12306,23,Dodi Lukebakio,303259
+4840,37,Massadio Haïdara,170929
+3476,29,Muhamed Bešić,93905
+2934,32,Michael Hefele,102382
+4913,30,Bojan Krkíc Pérez,44675
+3641,36,Brahim Abdelkader Diaz,314678
+4909,33,Jeremie Boga,216569
+3271,35,Liam Rosenior,15166
+4093,26,Jay Fulton,171260
+4691,36,Claudio Andrés Bravo Muñoz,40423
+3512,24,Marko Grujić,222813
+4692,31,Levi Lumeka,537182
