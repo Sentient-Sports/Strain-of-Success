@@ -1,1 +1,1 @@
-
+This folder contains the initial injury and game data to build the required datasets to run the MDP. The user will need to access event data (free data available at: https://statsbomb.com/what-we-do/hub/free-data/) to be able to completely run the notebooks. 
