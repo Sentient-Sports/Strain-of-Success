@@ -21,7 +21,7 @@ The framework of our team selection model is visualised in the diagram below.
 
 - **match_predictions:** This directory contains the code to train and save the match outcome prediction model presented in Section 5 of the paper.
 
-- **team_selection:** This directory contains the code to generate the team selection MDP and find optimal solutions using the MDP algorithm.
+- **team_selection_MDP:** This directory contains the code to generate the team selection MDP and find optimal solutions using the MDP algorithm.
 
 ## Installing Requirements
 
@@ -33,4 +33,24 @@ pip install -r requirements.txt
 
 ## Code Workflow
 
+- Run the notebooks in the data_collection directory to obtain the injury and VAEP feature sets.
+
+- Run the XGBoost_Injury_Model notebook in the injury_model directory to train the injury prediction model. This model can be saved as a pickle file and used in the team selection MDP.
+
+- Run the Team_Rewards notebook in the match_predictions directory to train the match outcome prediction model (reward function). The rewards for teams at each game are precomputed and stored in this notebook to improve the computational efficiency of the team selection MDP and MCTS algorithm.
+  
+- Run the MDP notebook in the team_selection_MDP directory to run the Markov Decision Process model of team selection over a season. This notebook also contains the code to run the MCTS algorithm over a season to get a complete season simulation. To get an accurate measure of the success of the MCTS algorithm, this process must be repeated and data logged in files to retrieve many season simulations for the algorithm. Furthermore, the notebook (aswell as the updated_injury_probs.py and the MDP.py files) contain team ID variables. These variables must be updated depending on the team you would like to run the algorithm for.
+
+- The MCTSResultsAnalysis notebook in the experiments directory can be used to find the overall results of many MCTS season simulations so that these results can be compared to the greedy strategy. This notebook, aswell as the MDP notebook, also contains some code that is used to store data ready to be used for the experiments
+
+- The ExperimentPlots notebook in the experiments directory can be used to display all the plots that were used in the paper. These use results collected from the other notebooks and stored in spreadsheets when running MCTS on a compute cluster. 
+
 ## Data and References
+
+- Injury Data: The player injury data was provided from Transfermrket - https://www.transfermarkt.co.uk/.
+
+- Events Data: For this work, events and lineup data is used for the English Premier League 2017/18 and 2018/19 seasons. This data has been provided by StatsBomb. Free event and lineup data samples can be accessed from StatsBomb: https://statsbomb.com/what-we-do/hub/free-data/.
+
+- Wage Data: We accessed the wage data for the 2018/19 English Premier League season from Capology: https://www.capology.com/uk/premier-league/salaries/2018-2019/.
+
+- The original VAEP model can be viewed in the following repository: https://github.com/ML-KULeuven/socceraction.
