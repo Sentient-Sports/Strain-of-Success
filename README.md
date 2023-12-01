@@ -13,6 +13,16 @@ The framework of our team selection model is visualised in the diagram below.
 
 ## Directory Structure
 
+**data_collection: **
+
+**experiments: **
+
+**injury_model: **
+
+**match_predictions: **
+
+**team_selection: **
+
 ## Installing Requirements
 
 ## Code Workflow
