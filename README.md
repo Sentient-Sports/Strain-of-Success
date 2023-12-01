@@ -13,7 +13,7 @@ The framework of our team selection model is visualised in the diagram below.
 
 ## Directory Structure
 
-- **data_collection:** These notebooks are used to convert the data from multiple sources (i.e., event data, injury data, weather data) and convert these into features such as the VAEP features for Section 5 and the injury features for the injury model in Section 4 of the paper.
+- **data_collection:** These notebooks are used to collate the data from multiple sources (i.e., event data, injury data, weather data) and convert these into features such as the VAEP features for Section 5 and the injury features for the injury model in Section 4 of the paper.
 
 - **experiments:** These notebooks are using to collect the data and run the experiments shown in Section 7 of the paper. Some of this data is extracted from runs of the team selection model on a compute cluster. If you would like to run these experiments on your own data, you must store the outputs of the complete MCTS simulation and extract the information that is used in the notebooks.
 
