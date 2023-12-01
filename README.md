@@ -4,7 +4,7 @@ Player injuries in soccer can significantly impact long-term team performance bo
 
 The use of our MCTS-based team selection strategy and how it reduces player injury risk over a season compared to the myopic strategy is visualised below.
 
-![PlayerWelfare](https://github.com/GregSoton/SoccerTeamSelection/assets/96203800/7d4c97ce-874e-4eb7-863c-e8928cc2bc47)
+<img src="[https://i.imgur.com/ZWnhY9T.png](https://github.com/GregSoton/SoccerTeamSelection/assets/96203800/7d4c97ce-874e-4eb7-863c-e8928cc2bc47)" width=50% height=50%>
 
 ## Model Framework
 The framework of our model is visualised in the diagram below
