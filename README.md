@@ -25,6 +25,12 @@ The framework of our team selection model is visualised in the diagram below.
 
 ## Installing Requirements
 
+Firstly, ensure that the requirement.txt file is in the directory so that the requirements can be installed to run the code in this repository. Next, run the following command in the command prompt for the directory:
+
+```
+pip install -r requirements.txt
+```
+
 ## Code Workflow
 
 ## Data and References
