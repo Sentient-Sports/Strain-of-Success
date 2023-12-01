@@ -1,4 +1,4 @@
-### Match Prediction Model for Section 5.3
+### Match Prediction Model for Section 5
 
 import pickle
 import numpy as np

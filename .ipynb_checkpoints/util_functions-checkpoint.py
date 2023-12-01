@@ -118,7 +118,7 @@ def convert_to_actions(events: pd.DataFrame, home_team_id: int) -> DataFrame[SPA
 
 #If you want to go back to the days+1 route, simply change next date index to date + timedelta(days=1)
 def get_injury_df_for_game(game_id, games_df, injury_df_formatted):
-    lineup = pd.read_csv('data/game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
+    lineup = pd.read_csv('game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
     lineup_pids = lineup['player_id']
     date = games_df[games_df['game_id'] == game_id]['game_date'].values[0].split(' ')[0]
     date = datetime.strptime(date, '%Y-%m-%d')
@@ -157,7 +157,7 @@ def get_injury_df_for_game(game_id, games_df, injury_df_formatted):
 
 #If you want to go back to the days+1 route, simply change next date index to date + timedelta(days=1)
 def get_injury_df_for_game_FFScout(game_id, games_df, injury_df_formatted):
-    lineup = pd.read_csv('data/game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
+    lineup = pd.read_csv('game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
     lineup_pids = lineup['player_id']
     date = games_df[games_df['game_id'] == game_id]['game_date'].values[0].split(' ')[0]
     date = datetime.strptime(date, '%Y-%m-%d')

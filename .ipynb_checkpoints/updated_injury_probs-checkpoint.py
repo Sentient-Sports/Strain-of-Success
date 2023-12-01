@@ -61,6 +61,7 @@ def prepare_static_features(player_feature_df,games_df, opp_mean_feature_df):
     player_id = player_feature_df['player_id'].values[0]
     player_team = player_feature_df['team_id'].unique()[0]
     fixtures = pd.read_csv('data/team_data/'+str(player_team)+'_fixtures.csv')[['game_date','Competition','season']]
+    #-1fixtures = fixtures[fixtures['season']=='18/19'].drop(['season'],axis=1).reset_index(drop=True)
     fixtures['game_date'] = pd.to_datetime(fixtures['game_date']).dt.date
     player_feature_df['game_date'] = pd.to_datetime(player_feature_df['date']).dt.date
     merged_team_df = pd.merge(fixtures,player_feature_df,on='game_date',how='left').drop('date',axis=1)
@@ -77,6 +78,7 @@ def prepare_static_features(player_feature_df,games_df, opp_mean_feature_df):
     merged_team_df['precipMM'] = merged_team_df['precipMM'].ffill().bfill()
     merged_team_df['distance'] = merged_team_df['distance'].ffill().bfill()
     merged_team_df['temp'] = merged_team_df['temp'].ffill().bfill()
+    #merged_team_df[['precipMM','distance','temp']] =  merged_team_df[['precipMM','distance','temp']].fillna(merged_team_df.mean())
     
     try:
         ##Impute opponent features
@@ -104,8 +106,10 @@ def prepare_static_features(player_feature_df,games_df, opp_mean_feature_df):
     merged_team_df['days_out_most_serious_injury'] = merged_team_df['days_out_most_serious_injury'].dropna().iloc[-1]
     merged_team_df['injuries_past_twelve_months'] = merged_team_df['injuries_past_twelve_months'].dropna().iloc[-1]
     days_passed = (merged_team_df['game_date'] - merged_team_df['game_date'].min()).dt.days
-    merged_team_df['days_since_last_injury'] = days_passed + merged_team_df['days_since_last_injury'].dropna().iloc[-1]
-    
+    try:
+        merged_team_df['days_since_last_injury'] = days_passed + merged_team_df['days_since_last_injury'].dropna().iloc[-1]
+    except:
+        merged_team_df['days_since_last_injury'] = days_passed + 200
     return merged_team_df,in_game_features
 
 def add_ingame_features_using_minutes_rbr(pid,row,rolling_mins_played,dist_ratio,drib_ratio, minutes_dict,inj_dict):
