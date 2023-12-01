@@ -7,7 +7,7 @@ The use of our MCTS-based team selection strategy for reducing player injury ris
 <img src="https://github.com/GregSoton/SoccerTeamSelection/assets/96203800/7d4c97ce-874e-4eb7-863c-e8928cc2bc47" width=100% height=100%>
 
 ## Model Framework
-The framework of our model is visualised in the diagram below
+The framework of our team selection model is visualised in the diagram below.
 
 ![image](https://github.com/GregSoton/SoccerTeamSelection/assets/96203800/768d1a14-fe72-4107-ae86-0b7424544f12)
 
