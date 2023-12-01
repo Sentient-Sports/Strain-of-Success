@@ -17,11 +17,11 @@ The framework of our team selection model is visualised in the diagram below.
 
 - **experiments:** These notebooks are using to collect the data and run the experiments shown in Section 7 of the paper. Some of this data is extracted from runs of the team selection model on a compute cluster. If you would like to run these experiments on your own data, you must store the outputs of the complete MCTS simulation and extract the information that is used in the notebooks.
 
-- **injury_model:** This notebook trains and saves the injury model presented in Section 4 of the paper.
+- **injury_model:** This directory contains the code for training and saving the injury model presented in Section 4 of the paper.
 
-- **match_predictions:** This notebook trains and saves the match outcome prediction model presented in Section 5 of the paper.
+- **match_predictions:** This directory contains the code to train and save the match outcome prediction model presented in Section 5 of the paper.
 
-- **team_selection:**
+- **team_selection:** This directory contains the code to generate the team selection MDP and find optimal solutions using the MDP algorithm.
 
 ## Installing Requirements
 
