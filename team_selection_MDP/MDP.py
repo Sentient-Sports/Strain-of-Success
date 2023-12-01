@@ -209,10 +209,10 @@ class GameMDP:
         new_remaining_games = tuple(remaining_games[1:])
         next_game = remaining_games[1] if len(remaining_games) > 1 else None
         
-        #Mean minutes played = ~72.5
+        #Mean minutes played = ~70
         #danger=3
         if current_game % 7 == 0: # * danger
-            injury_prob = {i: injury_prob_prelim[i] * (action[i-1]/70) for i in range(1, self.n_players+1)}
+            injury_prob = {i: injury_prob_prelim[i] * (action[i-1]/70) for i in range(1, self.n_players+1)} # Injury probability is proportional to minutes played
         else:
             injury_prob = {i: injury_prob_prelim[i] * (action[i-1]/70) for i in range(1, self.n_players+1)}
         random_nums = [random.random() for _ in range(self.n_players)]
