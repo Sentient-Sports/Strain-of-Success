@@ -4,3 +4,12 @@ Player injuries in soccer can significantly impact long-term team performance bo
 
 ![image](https://github.com/GregSoton/SoccerTeamSelection/assets/96203800/768d1a14-fe72-4107-ae86-0b7424544f12)
 
+## Model Framework
+
+## Directory Structure
+
+## Installing Requirements
+
+## Code Workflow
+
+## Data and References
