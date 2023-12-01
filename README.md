@@ -47,8 +47,8 @@ pip install -r requirements.txt
 
 ## Data and References
 
-- Injury Data:
+- Injury Data: The player injury data was provided from Transfermrket - https://www.transfermarkt.co.uk/
 
-- Events Data:
+- Events Data: For this work, events and lineup data is used for the English Premier League 2017/18 and 2018/19 seasons. This data has been provided by StatsBomb. Free event and lineup data samples can be accessed from StatsBomb: https://statsbomb.com/what-we-do/hub/free-data/.
 
-- Wage Data:
+- Wage Data: We accessed the wage data for the 2018/19 English Premier League season from Capology: https://www.capology.com/uk/premier-league/salaries/2018-2019/.
