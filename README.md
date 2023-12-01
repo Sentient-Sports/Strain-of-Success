@@ -14,6 +14,7 @@ The framework of our team selection model is visualised in the diagram below.
 ## Directory Structure
 
 > **data_collection:**
+These notebooks are used to convert the data from multiple sources (i.e., event data, injury data, weather data) and convert these into features such as the VAEP features for Section 5 and the injury features for the injury model in Section 4 of the paper.
 
 > **experiments:**
 
