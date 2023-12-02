@@ -21,7 +21,7 @@ The framework of our team selection model is visualised in the diagram below.
 
 - **match_predictions:** This directory contains the code to train and save the match outcome prediction model presented in Section 5 of the paper.
 
-- **team_selection_MDP:** This directory contains the code to generate the team selection MDP and find optimal solutions using the MDP algorithm.
+- **team_selection_MDP:** This directory contains the code to generate the team selection MDP and find optimal solutions using the MCTS algorithm.
 
 ## Installing Requirements
 
