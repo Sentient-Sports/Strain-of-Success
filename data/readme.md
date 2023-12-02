@@ -15,3 +15,4 @@ We explain below the final set of directories expected in this folder after runn
 - **player_data**: This contains injury data for specific players. These files can be computed in the DataCollection notebook.
 - **predictions**: Injury predictions are stored in this folder. These can be computed in the XGBoost_Injury_Model notebook.
 - **Team_rewards_DF**: These are precomputed rewards for teams over the season. These are computed in the Team_Rewards notebook.
+- **Feature_DF**: Feature dataframes for players to be run during MCTS simulations.
