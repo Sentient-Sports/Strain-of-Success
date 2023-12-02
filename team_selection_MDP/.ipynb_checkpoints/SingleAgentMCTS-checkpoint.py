@@ -1,5 +1,5 @@
 #Code adapted from original source at the following link: https://gibberblot.github.io/rl-notes/intro.html
-#Section 4 of the Paper - Includes Progressive Widening from Section 4.2.
+#Section 6 of the Paper - Includes Progressive Widening.
 
 from mcts import Node
 from mcts import MCTS
@@ -33,7 +33,7 @@ class SingleAgentNode(Node):
     def is_fully_expanded(self):
         hashable_state = (self.state[1],frozenset((k, v) for d in [self.state[2],self.state[4]] for k, v in d.items()))
         node_visits = Node.visits[hashable_state]
-        max_nodes_widening = int(1+node_visits**0.5)
+        max_nodes_widening = int(1+node_visits**0.5) # Progressive widening
         valid_actions = self.sorted_actions[:max_nodes_widening]
         if len(valid_actions) == len(self.children):
             return True
@@ -44,7 +44,7 @@ class SingleAgentNode(Node):
     #Selects a node that isnt fully expanded and will then expand it. If not, choose an action to go to another node.
     def select(self,root_node_game):
         curr_game = self.state[1]
-        if self.mdp.is_terminal(self.state) or not self.is_fully_expanded() or ((curr_game-root_node_game)>3):
+        if self.mdp.is_terminal(self.state) or not self.is_fully_expanded() or ((curr_game-root_node_game)>3): #3 game cutoff (see Section 6 of paper)
             #Check if current state has been fully expanded. If it has, move onto another state at a depth lower
             return self
         else:
@@ -109,20 +109,6 @@ class SingleAgentNode(Node):
         new_child = SingleAgentNode(
             self.mdp, self, next_state, self.qfunction, self.ucb, reward, action #Action taken is the action to get to the child
         )
-
-        """minutes_action = MDP.create_binary_indicator_list(action,self.mdp.n_players)
-        total_prob=1
-        for i in range(1,self.mdp.n_players+1):
-            if self.state[3][i] == True:
-                prob=1
-            elif next_state[3][i] == False:
-                prob=1-((self.state[2][i]*minutes_action[i-1])/70)
-            elif next_state[3][i] == True:
-                if len(next_state[0]) == 0:
-                    prob = (self.state[2][i]*minutes_action[i-1])/70
-                else:
-                    prob = ((self.state[2][i]*minutes_action[i-1])/70) / len(next_state[0])
-            total_prob *= prob"""
             
         self.children[action] += [(new_child, 0)]
         return new_child

@@ -26,8 +26,8 @@ daal_predict_algo = d4p.gbt_classification_prediction(
 )
 
 team_id = 23
-team_squad = pd.read_csv('team_selection_MDP/18-19_Squad/'+str(team_id)+'.csv')
-reward_df = pd.read_csv('team_selection_MDP/Team_rewards/'+str(team_id)+'.csv')
+team_squad = pd.read_csv('data/18-19_Squad/'+str(team_id)+'.csv')
+reward_df = pd.read_csv('data/Team_rewards/'+str(team_id)+'.csv')
 reward_dict = dict(zip(reward_df.columns[6:].values,range(len(reward_df.columns[6:].values))))
 reward_matrix = reward_df.iloc[:,6:].values
 team_reward_without_reserves = reward_df[[col for col in reward_df.columns if '20' not in col]].copy()
@@ -35,10 +35,10 @@ team_ranked_squads = (team_reward_without_reserves.iloc[:,6:].sum() / team_rewar
 team_ranked_squads_index = np.array([[int(x)-1 for x in t[1:-1].split(',')][1:] for t in team_ranked_squads])
 n_players = 19
 
-with open('team_selection_MDP/Player_predictions/reserve_dictionary.pkl', 'rb') as f:
+with open('data/predictions/reserve_dictionary.pkl', 'rb') as f:
     reserve_dictionary = pickle.load(f)
     
-with open('team_selection_MDP/Player_predictions/reserve_dictionary_numbered.pkl', 'rb') as f:
+with open('data/predictions/reserve_dictionary_numbered.pkl', 'rb') as f:
     reserve_dictionary_numbered = pickle.load(f)
 
 def create_binary_indicator_list(original_list, sublist_size):
@@ -49,7 +49,7 @@ def create_binary_indicator_list(original_list, sublist_size):
         binary_indicator[index] = 90
     return binary_indicator
 
-injury_data = pd.read_csv('data/injury_data/all_player_injuries_updated.csv')
+injury_data = pd.read_csv('data/injury_data/all_player_injuries.csv')
 inj_kde = gaussian_kde(injury_data['Days'])
 injury_lengths_array = inj_kde.resample(50000)[0]
 injury_lengths_array[injury_lengths_array < 0] = 0
@@ -274,6 +274,7 @@ class GameMDP:
         next_state = (new_remaining_games, next_game, new_injury_prob, new_is_injured_all, new_games_until_available_all,new_rolling_mins_played,new_minutes_dict, inj_dict)
         return next_state
             
+    #Gets actions that include reserves to fit certain formation. Must change the numbers for the values below if a different formation/squad structure is used.
     def get_reserves_actions(self,is_injured,remaining_games):
 
         if len(remaining_games) == 0:

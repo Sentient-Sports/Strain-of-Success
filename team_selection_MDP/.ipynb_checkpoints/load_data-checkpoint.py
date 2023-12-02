@@ -3,7 +3,7 @@ from copy import deepcopy
 import pandas as pd
 import pickle
 
-predictions_df = pd.read_csv('data/predictions/injury_predictions_df_2.csv')
+predictions_df = pd.read_csv('data/predictions/injury_predictions_XGB.csv') #Predictions from injury model
 games_df = pd.read_csv('data/overview_data/games_data.csv')
 games_df = games_df.rename(columns={'game_date':'date'})
 games_df_comparison = games_df.copy()

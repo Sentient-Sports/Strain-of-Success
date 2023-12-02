@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 from sklearn.preprocessing import StandardScaler
 
 #Load the Model
-file_path = 'PoissonModel.pickle'
+file_path = 'data/predictions/PoissonModel.pickle'
 with open(file_path, 'rb') as file:
     # Load the object from the file
     loaded_model = pickle.load(file)
@@ -33,6 +33,7 @@ def get_predictions(X_test):
 """
 ===========================================================================================================
 """
+#Maher Model
 
 def predict_maher(model, df):
     y_pred = pd.Series(model.predict(df), name='rate', index=df.index)

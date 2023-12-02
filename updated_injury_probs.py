@@ -53,7 +53,7 @@ def get_opp_mean_feature_df(player_df):
     return opp_mean_feature_df
 
 """
-Need to consider players who play for multiple clubs still in fixture schedule.
+Need to consider players who play for multiple clubs still in fixture schedule. Sets features to run for simulation.
 """
 def prepare_static_features(player_feature_df,games_df, opp_mean_feature_df):
     

@@ -1,3 +1,5 @@
+## Uses some code that is found in the socceraction repository: https://github.com/ML-KULeuven/socceraction
+
 from pandera.typing import DataFrame
 from socceraction.data.statsbomb.schema import StatsBombPlayerSchema
 import socceraction.data.statsbomb.loader as sch
@@ -116,7 +118,6 @@ def convert_to_actions(events: pd.DataFrame, home_team_id: int) -> DataFrame[SPA
 
     return cast(DataFrame[SPADLSchema], actions)
 
-#If you want to go back to the days+1 route, simply change next date index to date + timedelta(days=1)
 def get_injury_df_for_game(game_id, games_df, injury_df_formatted):
     lineup = pd.read_csv('data/game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
     lineup_pids = lineup['player_id']
@@ -138,7 +139,7 @@ def get_injury_df_for_game(game_id, games_df, injury_df_formatted):
         injury_type = None
         for i,row in injury_dates.iterrows():
             try:
-                before_next = ((datetime.strptime(row['from'], '%Y-%m-%d') < next_date) & (datetime.strptime(row['from'], '%Y-%m-%d') < (date + timedelta(days=7))))
+                before_next = ((datetime.strptime(row['from'], '%Y-%m-%d') < next_date) & (datetime.strptime(row['from'], '%Y-%m-%d') < (date + timedelta(days=7)))) # Is player injured before next match
                 if ((datetime.strptime(row['from'], '%Y-%m-%d')) >= date) & before_next:
                     count += 1
                     injury_type = injury_dates.loc[i,'Injury']
@@ -155,7 +156,6 @@ def get_injury_df_for_game(game_id, games_df, injury_df_formatted):
     injured_game = lineup.copy()
     return injured_game
 
-#If you want to go back to the days+1 route, simply change next date index to date + timedelta(days=1)
 def get_injury_df_for_game_FFScout(game_id, games_df, injury_df_formatted):
     lineup = pd.read_csv('data/game_data/'+str(game_id)+'/'+str(game_id)+'_lineup.csv')
     lineup_pids = lineup['player_id']

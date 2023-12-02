@@ -16,17 +16,17 @@ from scipy.stats import gaussian_kde
 """
 #Reward function stuff
 team_id=23
-reward_df = pd.read_csv('team_selection_MDP/Team_rewards/'+str(team_id)+'.csv')
+reward_df = pd.read_csv('data/Team_rewards/'+str(team_id)+'.csv')
 team_reward_without_reserves = reward_df[[col for col in reward_df.columns if '20' not in col]].copy()
-feature_df = pd.read_csv('team_selection_MDP/Feature_DF/'+str(team_id)+'/18.csv')
+feature_df = pd.read_csv('data/Feature_DF/'+str(team_id)+'/18.csv')
 game_dates = pd.to_datetime(feature_df['game_date']).dt.date.values
 reward_dict = dict(zip(reward_df.columns[6:].values,range(len(reward_df.columns[6:].values))))
 reward_matrix = reward_df.iloc[:,6:].values
-team_squad = pd.read_csv('team_selection_MDP/Team_squads/'+str(team_id)+'.csv')
+team_squad = pd.read_csv('data/18-19_Squad/'+str(team_id)+'.csv')
 squad_vaeps = team_squad['vaep'].values[1:]
 squad_vaep = team_squad['vaep'].values
 importances = (team_reward_without_reserves.iloc[:,6:].max(axis=1)-team_reward_without_reserves.iloc[:,6:].mean(axis=1)).values
-injury_data = pd.read_csv('data/injury_data/all_player_injuries_updated.csv')
+injury_data = pd.read_csv('data/injury_data/all_player_injuries.csv')
 inj_kde = gaussian_kde(injury_data['Days'])
 injury_lengths_array = inj_kde.resample(50000)[0]
 mean_injury_length = np.mean(injury_lengths_array)
@@ -38,9 +38,6 @@ for i in range(len(game_dates)):
     game_diff = game_dates.tolist().index(return_date)-game_dates.tolist().index(current_game_date)+1
     future_importance = importances[i:i+game_diff].sum()
     importance_missed_injury.append(future_importance)
-
-with open('team_selection_MDP/Player_predictions/player_counts_dict.pkl', 'rb') as f:
-    player_id_counts = pickle.load(f)
     
 positions = [[1,2,3,4],[5,6],[7,8],[9,10,11,12,13],[14,15],[16,17],[18,19]]
 counts = [2,1,1,3,1,1,1]
@@ -67,7 +64,7 @@ def greedy_selection(selection_list, player_vaeps, num_selections, injury_dict):
 
 
 #########
-#Heuristic for Progressive Widening - Section 4.2 of the paper
+#Heuristic for Progressive Widening - Section 6 of the paper
 #########
 def get_sorted_actions(available_actions, injury_probs, current_game, squad_vaeps):
     if available_actions is None:
@@ -219,7 +216,7 @@ class MCTS:
         return random.choice(self.mdp.get_actions(state))
 
     """ Simulate until a terminal state """
-    
+    #Simulation heuristics as described in Section 6 of paper.
     def simulate(self, node):
         av_reward = 0
         num_loops = 1

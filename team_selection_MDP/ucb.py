@@ -23,7 +23,7 @@ class UpperConfidenceBounds(MultiArmedBandit):
         
         max_actions = []
         max_value = float("-inf")
-        # Exploration: Number of simulations completed / Number of times an action is taken
+        # Exploration: Number of simulations completed / Number of times an action is taken. UCB1 parameter.
         for action in actions:
             value = qfunction.get_q_value(state, action) + math.sqrt(
                 (0.2 * math.log(self.total)) / self.times_selected[(state[:5],action)]
