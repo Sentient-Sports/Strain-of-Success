@@ -41,7 +41,7 @@ pip install -r requirements.txt
   
 - Run the MDP notebook in the team_selection_MDP directory to run the Markov Decision Process model of team selection over a season. This notebook also contains the code to run the MCTS algorithm over a season to get a complete season simulation. To get an accurate measure of the success of the MCTS algorithm, this process must be repeated and data logged in files to retrieve many season simulations for the algorithm. Furthermore, the notebook (aswell as the updated_injury_probs.py and the MDP.py files) contain team ID variables. These variables must be updated depending on the team you would like to run the algorithm for.
 
-- The MCTSResultsAnalysis notebook in the experiments directory can be used to find the overall results of many MCTS season simulations so that these results can be compared to the greedy strategy. This notebook, aswell as the MDP notebook, also contains some code that is used to store data ready to be used for the experiments
+- The MCTSResultsAnalysis notebook in the experiments directory can be used to find the overall results of many MCTS season simulations so that these results can be compared to the greedy strategy. This notebook, aswell as the MDP notebook, also contains some code that is used to store data ready to be used for the experiments.
 
 - The ExperimentPlots notebook in the experiments directory can be used to display all the plots that were used in the paper. These use results collected from the other notebooks and stored in spreadsheets when running MCTS on a compute cluster. 
 
